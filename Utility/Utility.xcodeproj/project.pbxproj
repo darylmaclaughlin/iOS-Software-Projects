@@ -6,6 +6,13 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9628D3D519F44E74006A8D29 /* UTLDoubleLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = 9628D3D419F44E74006A8D29 /* UTLDoubleLimits.m */; };
+		9628D3D619F44E74006A8D29 /* UTLDoubleLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = 9628D3D419F44E74006A8D29 /* UTLDoubleLimits.m */; };
+		9628D3D719F44EAA006A8D29 /* UTLDoubleLimits.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9628D3D319F44E74006A8D29 /* UTLDoubleLimits.h */; };
+		9628D3D819F44EAA006A8D29 /* UTLDoubleLimits.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9628D3D419F44E74006A8D29 /* UTLDoubleLimits.m */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		9628D3BA19F44DD5006A8D29 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -13,6 +20,8 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				9628D3D719F44EAA006A8D29 /* UTLDoubleLimits.h in CopyFiles */,
+				9628D3D819F44EAA006A8D29 /* UTLDoubleLimits.m in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -22,6 +31,8 @@
 		9628D3BC19F44DD5006A8D29 /* libUtility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUtility.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9628D3C719F44DD5006A8D29 /* UtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9628D3CA19F44DD5006A8D29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9628D3D319F44E74006A8D29 /* UTLDoubleLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UTLDoubleLimits.h; path = ../../../Users/darylfreeman/Documents/UTLDoubleLimits.h; sourceTree = "<group>"; };
+		9628D3D419F44E74006A8D29 /* UTLDoubleLimits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UTLDoubleLimits.m; path = ../../../Users/darylfreeman/Documents/UTLDoubleLimits.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +74,8 @@
 		9628D3BE19F44DD5006A8D29 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				9628D3D319F44E74006A8D29 /* UTLDoubleLimits.h */,
+				9628D3D419F44E74006A8D29 /* UTLDoubleLimits.m */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -171,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9628D3D519F44E74006A8D29 /* UTLDoubleLimits.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9628D3D619F44E74006A8D29 /* UTLDoubleLimits.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
