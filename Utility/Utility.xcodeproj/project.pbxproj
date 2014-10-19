@@ -32,8 +32,8 @@
 		96471BDD19F4554F0062967C /* libUtility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUtility.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		96471BE819F4554F0062967C /* UtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96471BEB19F4554F0062967C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9687501919F455B6006AB087 /* UTLDoubleLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTLDoubleLimits.h; sourceTree = SOURCE_ROOT; };
-		9687501A19F455B6006AB087 /* UTLDoubleLimits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTLDoubleLimits.m; sourceTree = SOURCE_ROOT; };
+		9687501919F455B6006AB087 /* UTLDoubleLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTLDoubleLimits.h; sourceTree = "<group>"; };
+		9687501A19F455B6006AB087 /* UTLDoubleLimits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTLDoubleLimits.m; sourceTree = "<group>"; };
 		9687501D19F4568C006AB087 /* UTLTestDoubleLimits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTLTestDoubleLimits.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
