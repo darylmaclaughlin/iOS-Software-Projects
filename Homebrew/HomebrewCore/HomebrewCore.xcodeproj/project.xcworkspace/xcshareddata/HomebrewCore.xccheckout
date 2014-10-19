@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6B83B28B-09AF-46A1-A911-5D1930E64868</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HomebrewCore</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FDC4A5855BFD792C3D27BC36DCDD41D8DE7FDDBB</key>
+		<string>https://github.com/darylmaclaughlin/iOS-Software-Projects.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Homebrew/HomebrewCore/HomebrewCore.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FDC4A5855BFD792C3D27BC36DCDD41D8DE7FDDBB</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/darylmaclaughlin/iOS-Software-Projects.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FDC4A5855BFD792C3D27BC36DCDD41D8DE7FDDBB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FDC4A5855BFD792C3D27BC36DCDD41D8DE7FDDBB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-Software-Projects</string>
+		</dict>
+	</array>
+</dict>
+</plist>
