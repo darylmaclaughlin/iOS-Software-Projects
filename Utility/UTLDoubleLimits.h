@@ -10,4 +10,11 @@
 
 @interface UTLDoubleLimits : NSObject
 
+@property double minimum;
+@property double maximum;
+@property(readonly) double average;
+
+- (instancetype)initWithArgs:(double)minimum
+                     maximum:(double)maximum;
+
 @end

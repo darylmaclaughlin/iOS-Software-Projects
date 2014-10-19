@@ -10,6 +10,8 @@
 		9687501B19F455B6006AB087 /* UTLDoubleLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = 9687501A19F455B6006AB087 /* UTLDoubleLimits.m */; };
 		9687501C19F455B6006AB087 /* UTLDoubleLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = 9687501A19F455B6006AB087 /* UTLDoubleLimits.m */; };
 		9687501E19F4568C006AB087 /* UTLTestDoubleLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = 9687501D19F4568C006AB087 /* UTLTestDoubleLimits.m */; };
+		9687501F19F459A0006AB087 /* UTLDoubleLimits.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9687501919F455B6006AB087 /* UTLDoubleLimits.h */; };
+		9687502019F459A0006AB087 /* UTLDoubleLimits.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9687501A19F455B6006AB087 /* UTLDoubleLimits.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,6 +21,8 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				9687501F19F459A0006AB087 /* UTLDoubleLimits.h in CopyFiles */,
+				9687502019F459A0006AB087 /* UTLDoubleLimits.m in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

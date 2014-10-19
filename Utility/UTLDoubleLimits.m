@@ -10,4 +10,24 @@
 
 @implementation UTLDoubleLimits
 
+- (instancetype)init {
+    return [self initWithArgs:(double) 0
+                      maximum:(double) 100];
+};
+
+- (instancetype)initWithArgs:(double)minimum
+                     maximum:(double)maximum {
+    self = [super init];
+    if (self != nil) {
+        self->_minimum = minimum;
+        self->_maximum = maximum;
+    }
+    return self;
+}
+
+- (double)average {
+    return (_maximum + _minimum) / 2;
+}
+
+
 @end
