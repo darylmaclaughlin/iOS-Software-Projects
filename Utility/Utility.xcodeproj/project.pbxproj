@@ -6,11 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		9628D3C019F44DD5006A8D29 /* Utility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9628D3BF19F44DD5006A8D29 /* Utility.h */; };
-		9628D3C219F44DD5006A8D29 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9628D3C119F44DD5006A8D29 /* Utility.m */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		9628D3BA19F44DD5006A8D29 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -18,7 +13,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				9628D3C019F44DD5006A8D29 /* Utility.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +20,6 @@
 
 /* Begin PBXFileReference section */
 		9628D3BC19F44DD5006A8D29 /* libUtility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUtility.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9628D3BF19F44DD5006A8D29 /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
-		9628D3C119F44DD5006A8D29 /* Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 		9628D3C719F44DD5006A8D29 /* UtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9628D3CA19F44DD5006A8D29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,8 +63,6 @@
 		9628D3BE19F44DD5006A8D29 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				9628D3BF19F44DD5006A8D29 /* Utility.h */,
-				9628D3C119F44DD5006A8D29 /* Utility.m */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -136,6 +126,7 @@
 		9628D3B419F44DD5006A8D29 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = UTL;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Daryl MacLaughlin";
 				TargetAttributes = {
@@ -180,7 +171,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9628D3C219F44DD5006A8D29 /* Utility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
